@@ -616,7 +616,7 @@ function dupPer(dup){
 }
 function atualizarWzPreco(){
   const nomePlan = planNome(wiz.plan, lang);
-  document.getElementById('wiz2txt').textContent = t('wz2txt')+' '+nomePlan;
+  document.getElementById('wz2txt').textContent = t('wz2txt')+' '+nomePlan;
   const v = precoDe(wiz.plan, wiz.dup);
   const elPreco = document.getElementById('wzPrecoPlan');
   const elPer = document.getElementById('wzPerPlan');
